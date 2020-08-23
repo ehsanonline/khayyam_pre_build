@@ -1,1 +1,3 @@
-# khayyam_pre_build
+# [khayyam](https://github.com/pylover/khayyam) Pre Build
+a common problem with khayyam python library is [The C extension is not available. Switching to fallback python pure algorithms](https://github.com/pylover/khayyam/issues/30) error which makes it slow.
+The solution is to build the library from the source and use it, instead of installing it with `pip`. But if you don't want to (or can't) build it, you can use the pre-build files which I prepared. Just extract the right version (3.6, 3.7 or 3.8 beased on your python version) zip file in the `site-packages` folder where your python or virtual env is installed. the `khayyam` folder in the zip file should be in your `site-packages` folder.
